@@ -4,8 +4,8 @@ import Searchbar from "../components/searchbar";
 export default function Navbar() {
   return (
     <>
-      <div class="header">
-        <div class="inner-header flex">
+      <div className="header">
+        <div className="inner-header flex">
           <h3>Search here</h3>
           <Searchbar />
           <h3>or upload a file</h3>
@@ -13,12 +13,12 @@ export default function Navbar() {
 
         <div>
           <svg
-            class="waves"
+            className="waves"
             xmlns="http://www.w3.org/2000/svg"
             xlink="http://www.w3.org/1999/xlink"
             viewBox="0 24 150 28"
             preserveAspectRatio="none"
-            shape-rendering="auto"
+            shapeRendering="auto"
           >
             <defs>
               <path
@@ -26,7 +26,7 @@ export default function Navbar() {
                 d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
               />
             </defs>
-            <g class="parallax">
+            <g className="parallax">
               <use
                 href="#gentle-wave"
                 x="48"
@@ -50,7 +50,7 @@ export default function Navbar() {
           </svg>
         </div>
       </div>
-      <div class="content flex"></div>
+      <div className="content flex"></div>
     </>
   );
 }
