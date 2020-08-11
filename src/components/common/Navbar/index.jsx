@@ -10,7 +10,6 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   navbar: {
-    backgroundColor: theme.palette.primary.main,
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -28,7 +27,7 @@ export default function Navbar() {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" className={classes.navbar}>
+      <AppBar position="fixed" className={classes.navbar}  style={{ background: 'transparent', boxShadow: 'none'}}>
         <Toolbar>
           <img
             className={classes.logo}

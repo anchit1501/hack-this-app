@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-.section {
+/* .section {
   text-align: center;
   height: 400px;
 }
@@ -12,4 +12,4 @@ div.section:nth-of-type(odd) {
 
 div.section:nth-of-type(even) {
   background-color: #467fcf;
-}
+} */
